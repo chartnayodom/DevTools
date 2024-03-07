@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Define variables
         DOCKER_IMAGE       = 'chartnayodom/fastapi-webhook:latest'
-        DOCKER_CREDENTIALS = credentials('dockerhub')
+        DOCKER_CREDENTIALS = credentials('dockerhubb')
     }
 
     stages {
